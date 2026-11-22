@@ -1,0 +1,226 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #081426;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: #0d1d32;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo span,
+.hero h1 span {
+  color: #16d9a0;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #16d9a0;
+}
+
+.nav-button,
+.primary-button {
+  background: #16d9a0;
+  color: #071426;
+  padding: 11px 22px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 520px;
+  padding: 90px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+  background: linear-gradient(120deg, #0b1c32, #102b43);
+}
+
+.hero-content {
+  max-width: 570px;
+}
+
+.eyebrow {
+  color: #16d9a0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+
+.hero-content > p:not(.eyebrow) {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.hero-card {
+  background: #142b45;
+  border: 1px solid #29445e;
+  border-radius: 18px;
+  padding: 40px;
+  width: 310px;
+  text-align: center;
+}
+
+.hero-card p {
+  color: #b7c7d8;
+}
+
+.hero-card h2 {
+  margin: 15px 0;
+}
+
+.coin-icon {
+  font-size: 75px;
+  color: #16d9a0;
+  margin: 20px 0;
+}
+
+.markets,
+.about {
+  padding: 80px 8%;
+  text-align: center;
+}
+
+.markets h2,
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.section-intro,
+.about > p:last-child {
+  color: #b7c7d8;
+  max-width: 650px;
+  margin: 0 auto 35px;
+}
+
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.coin-card {
+  background: #11243a;
+  padding: 30px;
+  border: 1px solid #263e57;
+  border-radius: 14px;
+  transition: transform 0.2s;
+}
+
+.coin-card:hover {
+  transform: translateY(-5px);
+  border-color: #16d9a0;
+}
+
+.coin-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #193b50;
+  color: #16d9a0;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.coin-card p {
+  color: #16d9a0;
+  margin-bottom: 12px;
+}
+
+.coin-description {
+  color: #b7c7d8;
+  font-size: 14px;
+}
+
+.notice {
+  color: #aab8c8;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.about {
+  background: #0d1d32;
+}
+
+footer {
+  background: #06101e;
+  text-align: center;
+  padding: 25px;
+  color: #aab8c8;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 65px 7%;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero-card {
+    width: 100%;
+  }
+
+  .market-grid {
+    grid-template-columns: 1fr;
+  }
+}
