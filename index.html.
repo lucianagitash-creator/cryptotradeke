@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CryptoTrade KE - Cryptocurrency education and trading platform concept for Kenya.">
+  <title>CryptoTrade KE | Digital Finance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">CryptoTrade <span>KE</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#markets">Markets</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="#markets" class="nav-button">Explore</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR DIGITAL FINANCE JOURNEY</p>
+        <h1>Explore the Future of <span>Crypto Trading.</span></h1>
+        <p>
+          Discover cryptocurrency, learn about digital assets
+          and explore the world of financial technology with
+          CryptoTrade KE.
+        </p>
+        <a href="#markets" class="primary-button">Explore Markets</a>
+      </div>
+
+      <div class="hero-card">
+        <p>CRYPTO INSIGHT</p>
+        <h2>Learn. Explore. Grow.</h2>
+        <div class="coin-icon">₿</div>
+        <p>Start your digital finance journey today.</p>
+      </div>
+    </section>
+
+    <section class="markets" id="markets">
+      <p class="eyebrow">DIGITAL ASSETS</p>
+      <h2>Explore Popular Cryptocurrencies</h2>
+      <p class="section-intro">
+        Learn about some of the most recognised digital assets.
+      </p>
+
+      <div class="market-grid">
+        <article class="coin-card">
+          <span class="coin-symbol">₿</span>
+          <h3>Bitcoin</h3>
+          <p>BTC</p>
+          <span class="coin-description">Digital currency</span>
+        </article>
+
+        <article class="coin-card">
+          <span class="coin-symbol">Ξ</span>
+          <h3>Ethereum</h3>
+          <p>ETH</p>
+          <span class="coin-description">Blockchain technology</span>
+        </article>
+
+        <article class="coin-card">
+          <span class="coin-symbol">◎</span>
+          <h3>Solana</h3>
+          <p>SOL</p>
+          <span class="coin-description">Digital asset</span>
+        </article>
+      </div>
+      <p class="notice">Educational information only. These are not live market prices.</p>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">ABOUT US</p>
+      <h2>Welcome to CryptoTrade KE</h2>
+      <p>
+        Our goal is to make cryptocurrency information and
+        digital finance education more accessible to the
+        Kenyan community.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 CryptoTrade KE. All rights reserved.</p>
+    <p>Learn about digital assets responsibly.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
